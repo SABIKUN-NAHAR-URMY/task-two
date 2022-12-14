@@ -72,7 +72,7 @@ const FullPageScroll = () => {
                                     ></path>
                                     <g className="dots-nav">
                                         <path
-                                            fill="#0092FF"
+                                            fill="#FFF"
                                             d="M84 80c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-3-6-6-6z"
                                             className="dotsst dotsfill1"
                                         ></path>
@@ -240,7 +240,7 @@ const FullPageScroll = () => {
                                 </g>
                                 <g className="dots-nav">
                                     <path
-                                        fill="#0092FF"
+                                        fill="#FFF"
                                         d="M206.8 29c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 NaN"
                                         className="dotsst dotsfill2"
                                     ></path>
@@ -408,7 +408,7 @@ const FullPageScroll = () => {
                                 </g>
                                 <g className="dots-nav">
                                     <path
-                                        fill="#0092FF"
+                                        fill="#FFF"
                                         d="M332 85c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-3-6-6-6zm0 NaN"
                                         className="dotsst dotsfill3"
                                     ></path>
@@ -575,7 +575,7 @@ const FullPageScroll = () => {
                                 </g>
                                 <g className="dots-nav">
                                     <path
-                                        fill="#0092FF"
+                                        fill="#FFF"
                                         d="M380 205c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-3-6-6-6zm0 NaN"
                                         className="dotsst dotsfill4"
                                     ></path>
@@ -746,7 +746,7 @@ const FullPageScroll = () => {
                                 </g>
                                 <g className="dots-nav">
                                     <path
-                                        fill="#0092FF"
+                                        fill="#FFF"
                                         d="M335 315c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-1-6-6-6zm0 NaN"
                                         className="dotsst dotsfill5"
                                     ></path>
@@ -920,7 +920,7 @@ const FullPageScroll = () => {
                                 </g>
                                 <g className="dots-nav">
                                     <path
-                                        fill="#0092FF"
+                                        fill="#FFF"
                                         d="M210 375c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-1-6-6-6zm0 NaN"
                                         className="dotsst dotsfill6"
                                     ></path>
@@ -1087,7 +1087,7 @@ const FullPageScroll = () => {
                                 </g>
                                 <g className="dots-nav">
                                     <path
-                                        fill="#0092FF"
+                                        fill="#FFF"
                                         d="M88 324c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2-6-6-6zm0 NaN"
                                         className="dotsst dotsfill7"
                                     ></path>
