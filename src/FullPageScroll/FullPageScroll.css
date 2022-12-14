@@ -1,0 +1,6 @@
+.bgImgAdd{
+    background: url('../images/pizza_box.png') left top no-repeat, url('../images/dominos-bread.png') right top no-repeat, url('../images/dominos-bread1.png') right bottom no-repeat;
+}
+.furnitureImg{
+    background-image: url('../images/interior.jpg');
+}
