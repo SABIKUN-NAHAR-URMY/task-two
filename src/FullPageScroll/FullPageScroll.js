@@ -30,9 +30,9 @@ const FullPageScroll = () => {
             <FullPageSections>
                 <FullpageSection className='sectionStyle'>
                     <div className='divStyle'>
-                        <div className='bg-purple-600 p-28 relative' >
+                        <div className='bg-purple-600 p-5 lg:p-28 relative' >
 
-                            <img src={img21} className='mt-72' alt="" />
+                            <img src={img21} className='mt-0 lg:mt-72' alt="" />
                             <h1 className='text-white text-3xl font-bold pt-7'>ABC 123</h1>
                             <p className='text-white pt-6'>We are the best Web Development company in the world</p>
                             <div className='text-white flex justify-between pt-7'>
@@ -180,15 +180,15 @@ const FullPageScroll = () => {
                         </div>
 
                         <div className='bg-slate-300 flex'>
-                            <img src={img2} alt="" />
-                            <img src={img3} alt="" />
+                            <img src={img2} className='w-[200px] lg:w-full' alt="" />
+                            <img src={img3} className='w-[200px] lg:w-full' alt="" />
                         </div>
                     </div>
                 </FullpageSection>
                 <FullpageSection className='sectionStyle'>
                     <div className='divStyle'>
-                        <div className='bg-blue-700 p-40 relative' >
-                            <h1 className='text-white text-3xl mt-72 font-bold pt-7'>ABC 234</h1>
+                        <div className='bg-blue-700 p-5 lg:p-40 relative' >
+                            <h1 className='text-white text-3xl lg:mt-72 font-bold pt-7'>ABC 234</h1>
                             <p className='text-white pt-6'>We are the best Web Development company in the world</p>
                             <div className='text-white flex justify-between pt-7'>
                                 <p>Comming Soon</p>
@@ -331,17 +331,17 @@ const FullPageScroll = () => {
                             </svg>
                         </div>
 
-                        <div className='bg-blue-900 flex px-52'>
-                            <img src={img5} className=' mt-72 w-[300px] h-[500px]' alt="" />
-                            <img src={img4} className='-pb-5 w-[300px] h-[500px]' alt="" />
+                        <div className='bg-blue-900 flex lg:px-52'>
+                            <img src={img5} className=' mt-40 lg:mt-72 w-full h-[400px] lg:w-[300px] lg:h-[500px]' alt="" />
+                            <img src={img4} className='lg:-pb-5 w-full h-[400px] lg:w-[300px] lg:h-[500px]' alt="" />
                         </div>
                     </div>
                 </FullpageSection>
 
                 <FullpageSection className='sectionStyle'>
                     <div className='divStyle'>
-                        <div className='bg-indigo-900 p-40 relative' >
-                            <h1 className='text-white text-3xl mt-72 font-bold pt-7'>ABC 345</h1>
+                        <div className='bg-indigo-900 p-24 lg:p-40 relative' >
+                            <h1 className='text-white text-3xl lg:mt-72 font-bold lg:pt-7'>ABC 345</h1>
                             <p className='text-white pt-6'>We are the best Web Development company in the world</p>
                             <div className='text-white flex justify-between pt-7'>
                                 <p>Comming Soon</p>
@@ -484,16 +484,16 @@ const FullPageScroll = () => {
                             </svg>
                         </div>
 
-                        <div className='bg-indigo-800 flex px-52'>
-                            <img src={img7} className=' mt-72 w-[300px] h-[500px]' alt="" />
-                            <img src={img6} className='-pb-5 w-[300px] h-[500px]' alt="" />
+                        <div className='bg-indigo-800 flex px-5 lg:px-52'>
+                            <img src={img7} className='mt-36 lg:mt-72 w-[300px] h-[500px]' alt="" />
+                            <img src={img6} className='lg:-pb-5 w-[300px] h-[500px]' alt="" />
                         </div>
                     </div>
                 </FullpageSection>
                 <FullpageSection className='sectionStyle'>
                     <div className='divStyle'>
-                        <div className='bg-cyan-900 p-32 relative' >
-                            <h1 className='text-white text-3xl mt-72 font-bold pt-7'>ABC 456</h1>
+                        <div className='bg-cyan-900 p-11 lg:p-32 relative' >
+                            <h1 className='text-white text-3xl lg:mt-72 font-bold pt-7'>ABC 456</h1>
                             <p className='text-white pt-6'>We are the best Web Development company in the world</p>
                             <div className='text-white flex justify-between pt-7'>
                                 <p>Comming Soon</p>
@@ -639,7 +639,7 @@ const FullPageScroll = () => {
                         <div className='bg-black w-[1000px]'>
 
                             <div className='flex bgImgAdd'>
-                                <img src={img11} className=' mt-80 mx-32 w-[200px] h-[400px]' alt="" />
+                                <img src={img11} className=' mt-56 lg:mt-80 mx-10 lg:mx-32 w-[200px] h-[400px]' alt="" />
                                 <img src={img12} className='mt-32 w-[200px] h-[400px]' alt="" />
                             </div>
                         </div>
@@ -648,8 +648,8 @@ const FullPageScroll = () => {
 
                 <FullpageSection className='sectionStyle'>
                     <div className='divStyle'>
-                        <div className='bg-sky-700 p-32 relative' >
-                            <h1 className='text-white text-3xl mt-72 font-bold pt-7'>ABC 567</h1>
+                        <div className='bg-sky-700 p-11 lg:p-32 relative' >
+                            <h1 className='text-white text-3xl lg:mt-72 font-bold pt-7'>ABC 567</h1>
                             <p className='text-white pt-6'>We are the best AR Development company in the world</p>
                             <div className='text-white flex justify-between pt-7'>
                                 <p className='flex items-center'>View Case Study<FaArrowRight></FaArrowRight></p>
@@ -792,23 +792,23 @@ const FullPageScroll = () => {
                             </svg>
                         </div>
 
-                        <div className='bg-cyan-400 px-24'>
+                        <div className='bg-cyan-400 lg:px-24'>
                             <div className='flex'>
                                 <img src={img13} className='w-[200px] h-[300px]' alt="" />
                                 <img src={img14} className='w-[200px] h-[400px]' alt="" />
                                 <img src={img15} className='mt-20 w-[300px] h-[500px]' alt="" />
                             </div>
                             <div className='flex'>
-                                <img src={img16} className=' mb-12 w-[200px] h-[300px]' alt="" />
-                                <img src={img17} className='w-[200px] h-[300px]' alt="" />
+                                <img src={img16} className='lg:mb-12  invisible lg:visible lg:w-[200px] lg:h-[300px]' alt="" />
+                                <img src={img17} className='lg: invisible lg:visible w-[200px] lg:h-[300px]' alt="" />
                             </div>
                         </div>
                     </div>
                 </FullpageSection>
                 <FullpageSection className='sectionStyle'>
                     <div className='divStyle'>
-                        <div className='bg-purple-600 p-28 relative' >
-                            <h1 className='text-white mt-72 text-3xl font-bold pt-7'>ABC 678</h1>
+                        <div className='bg-purple-600 p-6 lg:p-28 relative' >
+                            <h1 className='text-white lg:mt-72 text-3xl font-bold pt-7'>ABC 678</h1>
                             <p className='text-white pt-6'>Best science 2017 <br />We offer wide range of web development and app development</p>
                             <div className='text-white flex justify-between pt-7'>
                                 <p className='flex items-center'>View Case Study<FaArrowRight></FaArrowRight></p>
@@ -958,8 +958,8 @@ const FullPageScroll = () => {
                 </FullpageSection>
                 <FullpageSection className='sectionStyle'>
                     <div className='divStyle'>
-                        <div className='bg-emerald-800 p-32 relative' >
-                            <img src={img1} className='mt-72' alt="" />
+                        <div className='bg-emerald-800 p-11 lg:p-32 relative' >
+                            <img src={img1} className='lg:mt-72' alt="" />
                             <h1 className='text-white text-3xl font-bold pt-7'>ABC 23478</h1>
                             <p className='text-white pt-6'>We are the best web development company in the world</p>
                             <div className='text-white flex justify-between pt-7'>
@@ -1103,7 +1103,7 @@ const FullPageScroll = () => {
                             </svg>
                         </div>
 
-                        <div className='bg-emerald-500 pt-52 px-36'>
+                        <div className='bg-emerald-500 lg:pt-52 lg:px-36'>
                             <div className='flex relative'>
                                 <img src={img20} className='absolute mt-28 w-[400px]' alt="" />
                                 <img src={img18} className='ml-72 w-[300px]' alt="" />

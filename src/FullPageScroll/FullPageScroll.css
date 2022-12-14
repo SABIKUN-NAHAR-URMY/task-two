@@ -5,7 +5,7 @@
 
 }
 .divStyle{
-    display:inline-flex;
+    display: inline-flex;
 }
 .bgImgAdd{
     background: url('../images/pizza_box.png') left top no-repeat, url('../images/dominos-bread.png') right top no-repeat, url('../images/dominos-bread1.png') right bottom no-repeat;
@@ -18,8 +18,12 @@
     .sectionStyle {
         height: '100vh';
         width: '100%';
-        display: 'block';
+        display: block;
     
+    }
+
+    .divStyle{
+        display: block;
     }
     
 }
