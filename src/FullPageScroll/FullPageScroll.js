@@ -7,6 +7,11 @@ import img4 from '../images/veme-app-ui-design.png';
 import img5 from '../images/veme-blockchain-app-developed.png';
 import img6 from '../images/measure-total-body-weight-through-fitness-app.png';
 import img7 from '../images/nasa-fitness-tracking-mobile-app.png';
+import img8 from '../images/pizza_box.png';
+import img9 from '../images/dominos-bread.png';
+import img10 from '../images/dominos-bread1.png';
+import img11 from '../images/domi-img1.png';
+import img12 from '../images/ux-strategy-for-mobile-app-devlopment.png';
 import { FaArrowRight } from "react-icons/fa";
 
 const FullPageScroll = () => {
@@ -173,7 +178,7 @@ const FullPageScroll = () => {
                         </div>
                     </div>
                 </FullpageSection>
-                {/* <FullpageSection style={SectionStyle}>
+                <FullpageSection style={SectionStyle}>
                     <div className='flex'>
                         <div className='bg-blue-700 p-40 relative' >
                             <h1 className='text-white text-3xl mt-72 font-bold pt-7'>ABC 234</h1>
@@ -480,7 +485,7 @@ const FullPageScroll = () => {
                 </FullpageSection>
                 <FullpageSection style={SectionStyle}>
                     <div className='flex'>
-                        <div className='bg-indigo-900 p-40 relative' >
+                        <div className='bg-cyan-900 p-40 relative' >
                             <h1 className='text-white text-3xl mt-72 font-bold pt-7'>ABC 345</h1>
                             <p className='text-white pt-6'>We are the best Web Development company in the world</p>
                             <div className='text-white flex justify-between pt-7'>
@@ -624,12 +629,12 @@ const FullPageScroll = () => {
                             </svg>
                         </div>
 
-                        <div className='bg-indigo-800 flex px-52'>
+                        <div className='bg-black flex px-52'>
                                 <img src={img7} className=' mt-72 w-[300px] h-[500px]' alt="" />
                                 <img src={img6} className='-pb-5 w-[300px] h-[500px]' alt="" />
                         </div>
                     </div>
-                </FullpageSection> */}
+                </FullpageSection>
                 
 
             </FullPageSections>
